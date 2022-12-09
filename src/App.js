@@ -7,16 +7,18 @@ import { IterativeDesign } from './pages/IterativeDesign';
 import { Filter } from './pages/Filter';
 import { NavBarItem } from './components/NavBarItem';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className='home'>
     <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/development" element={<Development />} />
-      <Route path="/eyetracking" element={<EyeTracking />}/>
-      <Route path="/iterativedesign" element={<IterativeDesign />} />
-      <Route path="/filter" element={<Filter />} />
+      <Route path="/" element={<Layout />}/>
+      <Route index element={<Home />}/>
+      <Route path="development" element={<Development />} />
+      <Route path="eyetracking" element={<EyeTracking />}/>
+      <Route path="iterativedesign" element={<IterativeDesign />} />
+      <Route path="filter" element={<Filter />} />
     </Routes>
     </div>
   );
