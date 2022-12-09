@@ -7,7 +7,7 @@ export function NavBarItem() {
     return (
         <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" fixed='top'>
         <Container>
-          <Navbar.Brand href="/">LazyDog1120</Navbar.Brand>
+          <Navbar.Brand><Link to="/"></Link>LazyDog1120</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

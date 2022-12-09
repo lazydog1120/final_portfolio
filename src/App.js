@@ -14,12 +14,14 @@ function App() {
     <div className='home'>
     {<NavBarItem />}
     <Routes>
-      <Route path="/" element={<Layout />}/>
-      <Route index element={<Home />}/>
-      <Route path="development" element={<Development />} />
-      <Route path="eyetracking" element={<EyeTracking />}/>
-      <Route path="iterativedesign" element={<IterativeDesign />} />
-      <Route path="filter" element={<Filter />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />}/>
+        <Route path="development" element={<Development />} />
+        <Route path="eyetracking" element={<EyeTracking />}/>
+        <Route path="iterativedesign" element={<IterativeDesign />} />
+        <Route path="filter" element={<Filter />} />
+      </Route>
+      
     </Routes>
     </div>
   );
