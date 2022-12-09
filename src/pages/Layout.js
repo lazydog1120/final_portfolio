@@ -1,6 +1,6 @@
 import React from "react";
 import {Outlet} from "react-router-dom";
-import { NavBarItem } from "./NavBarItem";
+import { NavBarItem } from "../components/NavBarItem";
 
 const Layout = () => {
   return (

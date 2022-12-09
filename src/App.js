@@ -7,7 +7,7 @@ import { IterativeDesign } from './pages/IterativeDesign';
 import { Filter } from './pages/Filter';
 import { NavBarItem } from './components/NavBarItem';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from './components/Layout';
+import Layout from './pages/Layout'
 
 function App() {
   return (
