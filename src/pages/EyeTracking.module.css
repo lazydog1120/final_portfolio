@@ -1,0 +1,48 @@
+.header{
+    text-align: left;
+    padding-left: 6rem;
+    padding-top: 6rem;
+}
+
+.bodytext{
+    text-align: flex-start;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-right: 6rem;
+}
+
+.devtext{
+    text-align: flex-start;
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    padding-right: 6rem;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+.image{
+    width:40rem;
+    height: auto;
+}
+
+.homeImage{
+    width:50rem;
+    height: auto;
+    padding-left: 6rem;
+}
+
+.conclusiontext{
+    text-align: flex-start;
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    padding-right: 6rem;
+    padding-bottom: 3rem;
+}

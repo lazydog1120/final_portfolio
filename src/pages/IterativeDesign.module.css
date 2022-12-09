@@ -1,0 +1,50 @@
+.header{
+    text-align: left;
+    padding-left: 6rem;
+    padding-top: 6rem;
+}
+
+.bodytext{
+    text-align: flex-start;
+    padding-left: 6rem;
+    padding-top: 1rem;
+    padding-right: 6rem;
+}
+
+.novigtext{
+    text-align: flex-start;
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    padding-right: 6rem;
+}
+
+.sketches{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.image{
+    width:40rem;
+    height: auto;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-left: 6rem;
+}
+
+.conclusiontext{
+    text-align: flex-start;
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    padding-right: 6rem;
+    padding-bottom: 3rem;
+}

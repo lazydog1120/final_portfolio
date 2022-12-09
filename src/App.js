@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import { Development } from './pages/Development';
+import { EyeTracking } from './pages/EyeTracking';
+import { Home } from './pages/Home';
+import { IterativeDesign } from './pages/IterativeDesign';
+import { Filter } from './pages/Filter';
+import { NavBarItem } from './components/NavBarItem';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='home'>
+    {<NavBarItem />}
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/development" element={<Development />} />
+      <Route path="/eyetracking" element={<EyeTracking />}/>
+      <Route path="/iterativedesign" element={<IterativeDesign />} />
+      <Route path="/filter" element={<Filter />} />
+    </Routes>
     </div>
   );
 }

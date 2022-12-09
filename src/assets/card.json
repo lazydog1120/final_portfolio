@@ -1,0 +1,26 @@
+[
+    {
+      "project": "Development",
+      "text": "In this project we were tasked with designing an interactive interface for an emerging startup.",
+      "link": "/development",
+      "image": "/images/development-imgs/home.png"
+    },
+    {
+        "project": "Eye Tracking",
+        "text": "In this project we were tasked with designing an interactive interface for an emerging startup.",
+        "link": "/eyetracking",
+        "image": "/images/eye-tracking-imgs/Version A.jpg"
+    },
+    {
+        "project": "Iterative Design",
+        "text": "In this project we were tasked with designing an interactive interface for an emerging startup.",
+        "link": "/iterativedesign",
+        "image": "/images/iterative-design-imgs/Novig.png"
+      },
+      {
+        "project": "Filter",
+        "text": "In this project we were tasked with designing an interactive interface for an emerging startup.",
+        "link": "/filter",
+        "image": "/images/filter-imgs/filter.png"
+      }
+  ]
