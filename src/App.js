@@ -12,6 +12,7 @@ import Layout from './components/Layout';
 function App() {
   return (
     <div className='home'>
+    {<NavBarItem />}
     <Routes>
       <Route path="/" element={<Layout />}/>
       <Route index element={<Home />}/>

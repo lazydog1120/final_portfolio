@@ -5,7 +5,6 @@ import { NavBarItem } from '../components/NavBarItem';
 export function Development() {
     return (
         <>
-        {<NavBarItem />}
         <h1 className={DevelopmentCSS.header}>Development</h1>
         <div className={DevelopmentCSS.body}>
             <h6 className={DevelopmentCSS.bodytext}>In this project I was tasked to develop an interactive interface, use interface components, and tie the components to an internal data state. We created a list-based interface using React.</h6>
