@@ -13,11 +13,11 @@ function App() {
     <div className='home'>
     {<NavBarItem />}
     <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/development" element={<Development />} />
-      <Route path="/eyetracking" element={<EyeTracking />}/>
-      <Route path="/iterativedesign" element={<IterativeDesign />} />
-      <Route path="/filter" element={<Filter />} />
+      <Route path="/final_portfolio" element={<Home />}/>
+      <Route path="/final_portfolio/development" element={<Development />} />
+      <Route path="/final_portfolio/eyetracking" element={<EyeTracking />}/>
+      <Route path="/final_portfolio/iterativedesign" element={<IterativeDesign />} />
+      <Route path="/final_portfolio/filter" element={<Filter />} />
     </Routes>
     </div>
   );
