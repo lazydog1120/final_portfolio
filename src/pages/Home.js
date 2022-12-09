@@ -4,10 +4,12 @@ import Korea from '../assets/Korea.jpeg';
 import Arrow from '../assets/downarrow.png';
 import projectData from '../assets/card.json';
 import { CardItem } from '../components/CardItem';
+import { NavBarItem } from '../components/NavBarItem';
 
 export function Home() {
     return (
         <>
+        {<NavBarItem />}
             <h1 className={HomeCSS.header}>Welcome To My Portfolio!</h1>
             <div className={HomeCSS.body}>
                 <h4 className={HomeCSS.bodytext}>I'm currently a Computer Science concentrator at Brown University. Check out some projects I have worked on in my UI/UX and Introduction to Computer Graphics classes. <br/> <img className={HomeCSS.arrow} src={Arrow}></img> </h4>
