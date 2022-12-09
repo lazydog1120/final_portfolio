@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 export function NavBarItem() {
     return (
@@ -12,11 +13,11 @@ export function NavBarItem() {
             <Nav className="me-auto">
             </Nav>
             <Nav>
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/development">Development</Nav.Link>
-              <Nav.Link href="/eyetracking">Eye Tracking</Nav.Link>
-              <Nav.Link href="/iterativedesign">Iterative Design</Nav.Link>
-              <Nav.Link href="/filter">Filter</Nav.Link>
+              <Nav.Link><Link to="/">Home</Link></Nav.Link>
+              <Nav.Link><Link to="/development">Development</Link></Nav.Link>
+              <Nav.Link> <Link to="/eyetracking">Eye Tracking</Link></Nav.Link>
+              <Nav.Link><Link to="/iterativedesign">Iterative Design</Link></Nav.Link>
+              <Nav.Link><Link to="/filter">Filter</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
