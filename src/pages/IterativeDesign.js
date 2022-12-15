@@ -1,9 +1,5 @@
 import React from 'react';
 import IterativeCSS from './IterativeDesign.module.css';
-import { ImageItem } from '../components/ImageItem';
-import iterativeSketches from '../assets/iterative-sketches.json';
-import iterativeWireframes from '../assets/iterative-wireframe.json';
-import iterativeUser from '../assets/iterative-userTesting.json';
 import Carousel from 'react-bootstrap/Carousel';
 
 export function IterativeDesign() {
@@ -58,63 +54,60 @@ export function IterativeDesign() {
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 1.png"
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 1.png"}
                                 alt="1"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 2.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 2.png"}
                                 alt="2"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 3.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 3.png"}
                                 alt="3"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 4.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 4.png"}
                                 alt="4"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 5.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 5.png"}
                                 alt="5"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 6.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 6.png"}
                                 alt="6"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 7.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 7.png"}
                                 alt="7"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src="/images/iterative-design-imgs/Sketches 8.png"
+                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 8.png"}
                                 alt="8"
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        {/* {iterativeSketches.map((item, index)=>{
-                        return(<ImageItem key={index} item={item}/>)
-                        })} */}
                     </div>
                     <h4 className={IterativeCSS.novigtext}>LoFi Wireframes:</h4>
                     <p className={IterativeCSS.novigtext}>
@@ -126,42 +119,39 @@ export function IterativeDesign() {
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src="/images/iterative-design-imgs/Pre Sign In.png"
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Pre Sign In.png"}
                                 alt="pre sign in"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src="/images/iterative-design-imgs/Create Account.png"
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Create Account.png"}
                                 alt="create account"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src="/images/iterative-design-imgs/Home page.png"
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Home page.png"}
                                 alt="home page"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src="/images/iterative-design-imgs/Friends Page.png"
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Friends Page.png"}
                                 alt="friends page"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src="/images/iterative-design-imgs/Leagues.png"
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Leagues.png"}
                                 alt="leagues"
                                 />
                             </Carousel.Item>
                         </Carousel>
-                        {/* {iterativeWireframes.map((item, index)=>{
-                        return(<ImageItem key={index} item={item}/>)
-                        })} */}
                     </div>
                 </div>
             </div>
@@ -193,10 +183,7 @@ export function IterativeDesign() {
                 </p>
                 <h4 className={IterativeCSS.novigtext}>Task Description</h4>
                 <div className={IterativeCSS.user}>
-                    <img className={IterativeCSS.image} src="/images/iterative-design-imgs/User testing task.png" alt="user"/>
-                    {/* {iterativeUser.map((item, index)=>{
-                    return(<ImageItem key={index} item={item}/>)
-                    })} */}
+                    <img className={IterativeCSS.image} src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/User testing task.png"} alt="user"/>
                 </div>
                 <h4 className={IterativeCSS.novigtext}>Analysis</h4>
                 <p className={IterativeCSS.novigtext}>

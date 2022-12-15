@@ -11,7 +11,7 @@ export function Filter() {
         </div>
         <div className={FilterCSS.results}>
             <figure>
-                <img className={FilterCSS.image} src="/images/filter-imgs/filter.png"/>
+                <img className={FilterCSS.image} src= {process.env.PUBLIC_URL + "/" + "/images/filter-imgs/filter.png"}/>
             </figure>
         </div>
         <div>
@@ -30,48 +30,32 @@ export function Filter() {
                     <Carousel.Item>
                         <img
                         className={FilterCSS.image}
-                        src="/images/filter-imgs/blur.png"
+                        src= {process.env.PUBLIC_URL + "/" + "/images/filter-imgs/blur.png"}
                         alt="blur"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={FilterCSS.image}
-                        src="/images/filter-imgs/edge-detect.png"
+                        src= {process.env.PUBLIC_URL + "/" + "/images/filter-imgs/edge-detect.png"}
                         alt="Edge Detect"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={FilterCSS.image}
-                        src="/images/filter-imgs/scale-x.png"
+                        src= {process.env.PUBLIC_URL + "/" + "/images/filter-imgs/scale-x.png"}
                         alt="Scale"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={FilterCSS.image}
-                        src="/images/filter-imgs/scale-ed.png"
+                        src= {process.env.PUBLIC_URL + "/" + "/images/filter-imgs/scale-ed.png"}
                         alt="Scale and Edge Detection"
                         />
                     </Carousel.Item>
                 </Carousel>
-                {/* <figure>
-                    <img className={FilterCSS.image} src="/images/filter-imgs/blur.png"/>
-                    <figcaption>Blur Filter</figcaption>
-                </figure>
-                <figure>
-                    <img className={FilterCSS.image} src="/images/filter-imgs/edge-detect.png"/>
-                    <figcaption>Edge Detection Filter</figcaption>
-                </figure>
-                <figure>
-                    <img className={FilterCSS.image} src="/images/filter-imgs/scale-x.png"/>
-                    <figcaption>Scaling Filter</figcaption>
-                </figure>
-                <figure>
-                    <img className={FilterCSS.image} src="/images/filter-imgs/scale-ed.png"/>
-                    <figcaption>Scaling and Edge Detection Filters</figcaption>
-                </figure> */}
             </div>
         </div>   
         <div>
