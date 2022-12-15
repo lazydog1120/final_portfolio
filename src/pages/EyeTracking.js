@@ -1,5 +1,6 @@
 import React from 'react';
 import EyeTrackingCSS from './EyeTracking.module.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 export function EyeTracking() {
     return (
@@ -9,14 +10,30 @@ export function EyeTracking() {
             <h6 className={EyeTrackingCSS.bodytext}>In this group project we were tasked to make 2 versions of a site and conduct Eye Tracking tests to evaluate how efficient the page is at guiding users and its usability</h6>
         </div>
         <div className={EyeTrackingCSS.results}>
-            <figure>
+            <Carousel variant="dark">
+                <Carousel.Item>
+                    <img
+                    className={EyeTrackingCSS.image}
+                    src="/images/eye-tracking-imgs/Version A.jpg"
+                    alt="Version A"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className={EyeTrackingCSS.image}
+                    src="/images/eye-tracking-imgs/Version B.jpg"
+                    alt="Version B"
+                    />
+                </Carousel.Item>
+            </Carousel>
+            {/* <figure>
                 <img className={EyeTrackingCSS.image} src="/images/eye-tracking-imgs/Version A.jpg"/>
                 <figcaption>Version A</figcaption>
             </figure>
             <figure>
                 <img className={EyeTrackingCSS.image} src="/images/eye-tracking-imgs/Version B.jpg"/>
                 <figcaption>Version B</figcaption>
-            </figure>
+            </figure> */}
         </div>
         <div>
             <h4 className={EyeTrackingCSS.devtext}>Goal</h4>
@@ -36,11 +53,34 @@ export function EyeTracking() {
 
             <h2 className={EyeTrackingCSS.devtext}>Results</h2>
             <p className={EyeTrackingCSS.devtext}>
-                For our results, we generated a heat map of where their eyes went and a action replay that tracked the path of their eyes.
+                For our results, we generated a heat map of where their eyes went and an action replay that tracked the path of their eyes.
             </p>
             <h4 className={EyeTrackingCSS.devtext}>Version A Results:</h4>
             <div className={EyeTrackingCSS.results}>
-                <figure>
+                <Carousel variant="dark">
+                    <Carousel.Item>
+                        <img
+                        className={EyeTrackingCSS.image}
+                        src="/images/eye-tracking-imgs/Version A heatmap.png"
+                        alt="Version A heatmap"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={EyeTrackingCSS.image}
+                        src="/images/eye-tracking-imgs/Version A action replay.png"
+                        alt="Version A Replay During"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={EyeTrackingCSS.image}
+                        src="/images/eye-tracking-imgs/Version A replay.png"
+                        alt="Version A Replay Final"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+                {/* <figure>
                     <img className={EyeTrackingCSS.image} src="/images/eye-tracking-imgs/Version A heatmap.png"/>
                     <figcaption>Version A Heatmap</figcaption>
                 </figure>
@@ -51,11 +91,34 @@ export function EyeTracking() {
                 <figure>
                     <img className={EyeTrackingCSS.image} src="/images/eye-tracking-imgs/Version A replay.png"/>
                     <figcaption>Version A Action Replay Final</figcaption>
-                </figure>
+                </figure> */}
             </div>
             <h4 className={EyeTrackingCSS.devtext}>Version B Results:</h4>
             <div className={EyeTrackingCSS.results}>
-                <figure>
+                <Carousel variant="dark">
+                    <Carousel.Item>
+                        <img
+                        className={EyeTrackingCSS.image}
+                        src="/images/eye-tracking-imgs/Version B heatmap.png"
+                        alt="Version B heatmap"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={EyeTrackingCSS.image}
+                        src="/images/eye-tracking-imgs/Version B action replay.png"
+                        alt="Version B Replay During"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={EyeTrackingCSS.image}
+                        src="/images/eye-tracking-imgs/Version B replay.png"
+                        alt="Version B Replay Final"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+                {/* <figure>
                     <img className={EyeTrackingCSS.image} src="/images/eye-tracking-imgs/Version B heatmap.png"/>
                     <figcaption>Version B Heatmap</figcaption>
                 </figure>
@@ -66,7 +129,7 @@ export function EyeTracking() {
                 <figure>
                     <img className={EyeTrackingCSS.image} src="/images/eye-tracking-imgs/Version B replay.png"/>
                     <figcaption>Version B Action Replay Final</figcaption>
-                </figure>
+                </figure> */}
             </div>
             <h4 className={EyeTrackingCSS.devtext}>Results Analysis</h4>
             <p className={EyeTrackingCSS.devtext}>

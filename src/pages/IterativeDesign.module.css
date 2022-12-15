@@ -2,6 +2,7 @@
     text-align: left;
     padding-left: 6rem;
     padding-top: 6rem;
+    color: white;
 }
 
 .bodytext{
@@ -9,6 +10,7 @@
     padding-left: 6rem;
     padding-top: 1rem;
     padding-right: 6rem;
+    color: white;
 }
 
 .novigtext{
@@ -16,21 +18,25 @@
     padding-left: 6rem;
     padding-top: 0.5rem;
     padding-right: 6rem;
+    color:white;
 }
 
 .sketches{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
     padding: 1rem;
 }
 
 .image{
     width:40rem;
-    height: auto;
+    height: 45rem;
 }
+
+.imageW{
+    width:40rem;
+    height: 30rem;
+}
+
 
 .user{
     display: flex;
@@ -47,4 +53,5 @@
     padding-top: 0.5rem;
     padding-right: 6rem;
     padding-bottom: 3rem;
+    color: white;
 }

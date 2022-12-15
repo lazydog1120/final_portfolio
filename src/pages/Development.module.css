@@ -2,6 +2,7 @@
     text-align: left;
     padding-left: 6rem;
     padding-top: 6rem;
+    color: white;
 }
 
 .bodytext{
@@ -9,6 +10,7 @@
     padding-left: 6rem;
     padding-top: 1rem;
     padding-right: 6rem;
+    color: white;
 }
 
 .devtext{
@@ -16,15 +18,13 @@
     padding-left: 6rem;
     padding-top: 0.5rem;
     padding-right: 6rem;
+    color: white;
 }
 
 .filters{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    gap: 2rem;
     padding-top: 1rem;
 }
 
@@ -39,10 +39,16 @@
     padding-left: 6rem;
 }
 
+.home{
+    display: flex;
+    justify-content: center;
+}
+
 .conclusiontext{
     text-align: flex-start;
     padding-left: 6rem;
     padding-top: 0.5rem;
     padding-right: 6rem;
     padding-bottom: 3rem;
+    color: white;
 }

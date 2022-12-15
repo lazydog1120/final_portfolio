@@ -1,6 +1,6 @@
 import React from 'react';
 import DevelopmentCSS from './Development.module.css';
-import { NavBarItem } from '../components/NavBarItem';
+import Carousel from 'react-bootstrap/Carousel';
 
 export function Development() {
     return (
@@ -10,11 +10,10 @@ export function Development() {
             <h6 className={DevelopmentCSS.bodytext}>In this project I was tasked to develop an interactive interface, use interface components, and tie the components to an internal data state. We created a list-based interface using React.</h6>
             <h6 className={DevelopmentCSS.bodytext}>Try out <a href='https://lazydog1120.github.io/development'>my app</a>!</h6>
         </div>
-        <div>
-            <h2 className={DevelopmentCSS.bodytext}>2022 Formula 1 Drivers</h2>
+        <div className={DevelopmentCSS.home}>
+            <img className={DevelopmentCSS.homeImage} src="/images/development-imgs/home.png"></img>
         </div>
         <div>
-            <img className={DevelopmentCSS.homeImage} src="/images/development-imgs/home.png"></img>
             <h4 className={DevelopmentCSS.devtext}>Goal of Application</h4>
             <p className={DevelopmentCSS.devtext}>
             The goal of this app is to provide the user with simple statistics on the 2022 Formula 1 Driver roster. I think this provides value to the user because of its ability to filter out drivers based on team and where they are from and also sort the drivers based on points earned from races.
@@ -42,7 +41,37 @@ export function Development() {
                 To trigger state changes the user has to click on one of the filters or buttons on the driver card. I have 3 state variables: One that is a list that keeps track of the filtered drivers, one that keeps track of the combined points, and one that is a list that keeps track of the filters applied. For the filtered drivers state (filteredData) and for the filters applied state (filterType), a user can trigger state changes by clicking on the filters on the nav bar. For the combined points state, a user triggers changes when they click on either the add to favorites button or remove from favorites button on the driver cards. NOTE: When Reset Data filter is clicked, click home to get cards back.
                 </p>
                 <div className={DevelopmentCSS.filters}>
-                    <figure>
+                <Carousel variant="dark">
+                    <Carousel.Item>
+                        <img
+                        className={DevelopmentCSS.image}
+                        src="/images/development-imgs/sort.png"
+                        alt="Sort"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={DevelopmentCSS.image}
+                        src="/images/development-imgs/McLaren-filter.png"
+                        alt="McLaren Filter"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={DevelopmentCSS.image}
+                        src="/images/development-imgs/Asia-filter.png"
+                        alt="Asia Filter"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className={DevelopmentCSS.image}
+                        src="/images/development-imgs/favorites-filter.png"
+                        alt="Favorites Filter"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+                    {/* <figure>
                         <img className={DevelopmentCSS.image} src="/images/development-imgs/sort.png"/>
                         <figcaption>Sort Filter (Greatest to Least Points)</figcaption>
                     </figure>
@@ -57,7 +86,7 @@ export function Development() {
                     <figure>
                         <img className={DevelopmentCSS.image} src="/images/development-imgs/favorites-filter.png"/>
                         <figcaption>Favorite Driver(s) Filter</figcaption>
-                    </figure>
+                    </figure> */}
                 </div>
             </div>
         </div>    

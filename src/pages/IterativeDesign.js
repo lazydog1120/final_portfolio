@@ -4,6 +4,7 @@ import { ImageItem } from '../components/ImageItem';
 import iterativeSketches from '../assets/iterative-sketches.json';
 import iterativeWireframes from '../assets/iterative-wireframe.json';
 import iterativeUser from '../assets/iterative-userTesting.json';
+import Carousel from 'react-bootstrap/Carousel';
 
 export function IterativeDesign() {
     return (
@@ -53,9 +54,67 @@ export function IterativeDesign() {
                     rough sketches, which can be seen below:
                     </p>
                     <div className={IterativeCSS.sketches}>
-                        {iterativeSketches.map((item, index)=>{
+                        <Carousel variant="dark">
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 1.png"
+                                alt="1"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 2.png"
+                                alt="2"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 3.png"
+                                alt="3"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 4.png"
+                                alt="4"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 5.png"
+                                alt="5"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 6.png"
+                                alt="6"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 7.png"
+                                alt="7"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.image}
+                                src="/images/iterative-design-imgs/Sketches 8.png"
+                                alt="8"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        {/* {iterativeSketches.map((item, index)=>{
                         return(<ImageItem key={index} item={item}/>)
-                        })}
+                        })} */}
                     </div>
                     <h4 className={IterativeCSS.novigtext}>LoFi Wireframes:</h4>
                     <p className={IterativeCSS.novigtext}>
@@ -63,9 +122,46 @@ export function IterativeDesign() {
                     wireframes on Balsalmiq to give us a good base for hi-fi prototypes.
                     </p>
                     <div className={IterativeCSS.sketches}>
-                        {iterativeWireframes.map((item, index)=>{
+                    <Carousel variant="dark">
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.imageW}
+                                src="/images/iterative-design-imgs/Pre Sign In.png"
+                                alt="pre sign in"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.imageW}
+                                src="/images/iterative-design-imgs/Create Account.png"
+                                alt="create account"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.imageW}
+                                src="/images/iterative-design-imgs/Home page.png"
+                                alt="home page"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.imageW}
+                                src="/images/iterative-design-imgs/Friends Page.png"
+                                alt="friends page"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className={IterativeCSS.imageW}
+                                src="/images/iterative-design-imgs/Leagues.png"
+                                alt="leagues"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+                        {/* {iterativeWireframes.map((item, index)=>{
                         return(<ImageItem key={index} item={item}/>)
-                        })}
+                        })} */}
                     </div>
                 </div>
             </div>

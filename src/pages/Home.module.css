@@ -2,16 +2,19 @@
     text-align: left;
     padding-left: 6rem;
     padding-top: 6rem;
+    color: white;
 }
 
 .body{
     display: flex;
+    color: white;
 }
 
 .bodytext{
     text-align: flex-start;
     padding-left: 6rem;
     padding-top: 4rem;
+    color: white;
 }
 
 .image{
@@ -28,12 +31,13 @@
     margin-right: auto;
     width: 10rem;
     height: auto;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
 }
 
 .work{
     text-align: left;
-    padding-left: 6rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-right: 3rem;
 }
 .cards{

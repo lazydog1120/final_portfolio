@@ -15,7 +15,7 @@ export function Home() {
                 <img className={HomeCSS.image} src={Korea} alt='korea_img'></img>
             </div>
             <div className={HomeCSS.work}>
-                <h2>Work:</h2>
+                <h2 className={HomeCSS.header}>My Projects:</h2>
                 <div className={HomeCSS.cards}>
                     {projectData.map((item, index)=>{
                     return(<CardItem key={index} item={item}/>)
