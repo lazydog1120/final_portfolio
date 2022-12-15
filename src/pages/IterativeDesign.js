@@ -50,7 +50,7 @@ export function IterativeDesign() {
                     rough sketches, which can be seen below:
                     </p>
                     <div className={IterativeCSS.sketches}>
-                        <Carousel variant="dark">
+                        <Carousel variant="dark" slide={false}>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
@@ -115,7 +115,7 @@ export function IterativeDesign() {
                     wireframes on Balsalmiq to give us a good base for hi-fi prototypes.
                     </p>
                     <div className={IterativeCSS.sketches}>
-                    <Carousel variant="dark">
+                    <Carousel variant="dark" slide={false}>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}

@@ -26,7 +26,7 @@ export function Filter() {
 
             <h2 className={FilterCSS.devtext}>Results</h2>
             <div className={FilterCSS.results}>
-                <Carousel variant="dark">
+                <Carousel variant="dark" slide={false}>
                     <Carousel.Item>
                         <img
                         className={FilterCSS.image}

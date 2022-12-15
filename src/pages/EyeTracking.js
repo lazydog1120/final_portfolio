@@ -10,7 +10,7 @@ export function EyeTracking() {
             <h6 className={EyeTrackingCSS.bodytext}>In this group project we were tasked to make 2 versions of a site and conduct Eye Tracking tests to evaluate how efficient the page is at guiding users and its usability</h6>
         </div>
         <div className={EyeTrackingCSS.results}>
-            <Carousel variant="dark">
+            <Carousel variant="dark" slide={false}>
                 <Carousel.Item>
                     <img
                     className={EyeTrackingCSS.image}
@@ -49,7 +49,7 @@ export function EyeTracking() {
             </p>
             <h4 className={EyeTrackingCSS.devtext}>Version A Results:</h4>
             <div className={EyeTrackingCSS.results}>
-                <Carousel variant="dark">
+                <Carousel variant="dark" slide={false}>
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
@@ -75,7 +75,7 @@ export function EyeTracking() {
             </div>
             <h4 className={EyeTrackingCSS.devtext}>Version B Results:</h4>
             <div className={EyeTrackingCSS.results}>
-                <Carousel variant="dark">
+                <Carousel variant="dark" slide={false}>
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}

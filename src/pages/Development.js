@@ -41,7 +41,7 @@ export function Development() {
                 To trigger state changes the user has to click on one of the filters or buttons on the driver card. I have 3 state variables: One that is a list that keeps track of the filtered drivers, one that keeps track of the combined points, and one that is a list that keeps track of the filters applied. For the filtered drivers state (filteredData) and for the filters applied state (filterType), a user can trigger state changes by clicking on the filters on the nav bar. For the combined points state, a user triggers changes when they click on either the add to favorites button or remove from favorites button on the driver cards. NOTE: When Reset Data filter is clicked, click home to get cards back.
                 </p>
                 <div className={DevelopmentCSS.filters}>
-                <Carousel variant="dark">
+                <Carousel variant="dark" slide={false}>
                     <Carousel.Item>
                         <img
                         className={DevelopmentCSS.image}
