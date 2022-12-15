@@ -188,14 +188,15 @@ export function IterativeDesign() {
                 <h2 className={IterativeCSS.bodytext}>User Testing</h2>
                 <p className={IterativeCSS.novigtext}>
                     The next step in the project was to give a task to random users to test the 
-                    usability and effectivness of the prototypes, using <a href="https://www.usertesting.com/">UserTesting.com</a> to get feedback. We created a task that would utilise much of the functionality of
+                    usability and effectivness of the prototypes, using <a className={IterativeCSS.link} href="https://www.usertesting.com/">UserTesting.com</a> to get feedback. We created a task that would utilise much of the functionality of
                     what we wanted our prototype to do. 
                 </p>
                 <h4 className={IterativeCSS.novigtext}>Task Description</h4>
                 <div className={IterativeCSS.user}>
-                    {iterativeUser.map((item, index)=>{
+                    <img className={IterativeCSS.image} src="/images/iterative-design-imgs/User testing task.png" alt="user"/>
+                    {/* {iterativeUser.map((item, index)=>{
                     return(<ImageItem key={index} item={item}/>)
-                    })}
+                    })} */}
                 </div>
                 <h4 className={IterativeCSS.novigtext}>Analysis</h4>
                 <p className={IterativeCSS.novigtext}>
