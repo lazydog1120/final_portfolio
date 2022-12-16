@@ -140,7 +140,7 @@ export function IterativeDesign() {
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Friends Page.png"}
+                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Friends page.png"}
                                 alt="friends page"
                                 />
                             </Carousel.Item>
