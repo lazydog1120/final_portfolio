@@ -5,9 +5,9 @@ import { EyeTracking } from './pages/EyeTracking';
 import { Home } from './pages/Home';
 import { IterativeDesign } from './pages/IterativeDesign';
 import { Filter } from './pages/Filter';
-import { NavBarItem } from './components/NavBarItem';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from './pages/Layout'
+
 
 function App() {
   return (
@@ -20,7 +20,6 @@ function App() {
         <Route path="iterativedesign" element={<IterativeDesign />} />
         <Route path="filter" element={<Filter />} />
       </Route>
-      
     </Routes>
     </div>
   );
