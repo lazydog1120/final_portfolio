@@ -7,7 +7,7 @@ export function Development() {
         <>
         <h1 className={DevelopmentCSS.header}>Development</h1>
         <div className={DevelopmentCSS.body}>
-            <h6 className={DevelopmentCSS.bodytext}>In this project I was tasked to develop an interactive interface, use interface components, and tie the components to an internal data state. We created a list-based interface using React.</h6>
+            <h6 className={DevelopmentCSS.bodytext}>In this project I was tasked to develop a filtering application. I had to create list-based interactive interface, use interface components, and tie the components to an internal data state using React.</h6>
             <h6 className={DevelopmentCSS.bodytext}>Try out <a href='https://lazydog1120.github.io/development'>my app</a>!</h6>
         </div>
         <div className={DevelopmentCSS.home}>
@@ -16,32 +16,34 @@ export function Development() {
         <div>
             <h4 className={DevelopmentCSS.devtext}>Goal of Application</h4>
             <p className={DevelopmentCSS.devtext}>
-            The goal of this app is to provide the user with simple statistics on the 2022 Formula 1 Driver roster. I think this provides value to the user because of its ability to filter out drivers based on team and where they are from and also sort the drivers based on points earned from races.
-            </p>
-            <h4 className={DevelopmentCSS.devtext}>Usability Principles Considered</h4>
-            <p className={DevelopmentCSS.devtext}>
-            I think this app has a really simple and consistent design. The Nav Bar provides the app with good efficiency as it makes it easy for the user to provide the filter they want and they are easy to understand. Also, it provides the user with a visible list of filters they have applied so that the user doesn't have to remember which filters are applied.
-            </p>
-            <h4 className={DevelopmentCSS.devtext}>Organization of Components</h4>
-            <p className={DevelopmentCSS.devtext}>
-            There are 2 components to this app. One being a DriverItem which is the card for each driver (that being the image and info provided on the driver) and the other being the Nav Bar which provides all the filters. The nav bar is at the top of the app while the driver cards are below in grid like order going from left to right.
+            The goal of this app is to provide the user with simple statistics on the 2022 Formula 1 Driver roster. I think this provides value to the user because of its ability to filter out drivers based on team, where they are from and also sort the drivers based on points earned from races.
             </p>
         </div>
         
         <div>
-            <h2 className={DevelopmentCSS.bodytext}>Functionality</h2>
+            <h2 className={DevelopmentCSS.bodytext}>Implementation</h2>
             <div>
-                <h4 className={DevelopmentCSS.devtext}>How Data is Passed Down Through Components</h4>
-                <p className={DevelopmentCSS.devtext}>
-                For the Driver Item, the data it is given is the driver image, name, team they are on, nationality, region they are from, number of wins, and points earned from races. There are also two buttons provided to add and remove to favorites. In terms of the nav bar, it is given a function that that matches the filter type when on of the filters on the nave bar is clicked, a reset dat function that resets all the filters when it is clicked, and a combined points state that keeps track of the combined points of the drivers added to favorites (aggregate part).
-                </p>
+                <h4 className={DevelopmentCSS.devtext}>Components</h4>
+                <ul className={DevelopmentCSS.devtext}>
+                    <li>There are 2 components to this app. </li>
+                    <li>One being a DriverItem which is the card for each driver (that being the image and info provided on the driver) and the other being the Nav Bar which provides all the    filters. </li>
+                    <li>The nav bar is at the top of the app while the driver cards are below in grid like order going from left to right. </li>
+                </ul>
+                <h4 className={DevelopmentCSS.devtext}>Data and Filters</h4>
+                <ul className={DevelopmentCSS.devtext}>
+                    <li>For the Driver Item, the data it is given is the driver image, name, team they are on, nationality, region they are from, number of wins, and points earned from races. There are also two buttons provided to add to and remove from favorites.</li>
+                    <li>In terms of the Nav Bar, it contains 3 filters and 1 sort. The filters filter by team, nationality, and favorites while the sort sorts the drivers based on points earned from greatest to least.</li>
+                    <li>There is also a reset data function that resets all the filters when it is clicked, and a combined points state that keeps track of the combined points of the drivers added to favorites.</li>
+                </ul>
     
-                <h4 className={DevelopmentCSS.devtext}>How the User Triggers State Changes</h4>
-                <p className={DevelopmentCSS.devtext}>
-                To trigger state changes the user has to click on one of the filters or buttons on the driver card. I have 3 state variables: One that is a list that keeps track of the filtered drivers, one that keeps track of the combined points, and one that is a list that keeps track of the filters applied. For the filtered drivers state (filteredData) and for the filters applied state (filterType), a user can trigger state changes by clicking on the filters on the nav bar. For the combined points state, a user triggers changes when they click on either the add to favorites button or remove from favorites button on the driver cards. NOTE: When Reset Data filter is clicked, click home to get cards back.
-                </p>
+                <h4 className={DevelopmentCSS.devtext}>Using the App</h4>
+                <ul className={DevelopmentCSS.devtext}>
+                    <li>Using the app is very simple. In order to see changes, the user just has to click on one of the filters on the Nav Bar or click one of the buttons on the driver card.</li>
+                    <li>Once a filter or button is clicked, the corresponding function is applied in order to execute the proper filtering/sorting to the driver cards.</li>
+                    <li>Specifically when the add/remove from favorites button is clicked, I have an aggregator that keeps track of the combined points in the users favorites list.</li>
+                </ul>
                 <div className={DevelopmentCSS.filters}>
-                <Carousel variant="dark" slide={false}>
+                <Carousel slide={false} variant="dark">
                     <Carousel.Item>
                         <img
                         className={DevelopmentCSS.image}

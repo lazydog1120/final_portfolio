@@ -7,7 +7,7 @@ export function IterativeDesign() {
         <>
             <h1 className={IterativeCSS.header}>Iterative Design</h1>
             <div className={IterativeCSS.body}>
-                <h6 className={IterativeCSS.bodytext}> In this group project we were tasked with designing an interactive interface for an emerging startup. </h6>
+                <h6 className={IterativeCSS.bodytext}> In this group project we were tasked with designing an interactive interface using Figma for an emerging startup. </h6>
             </div>
             <div>
                 <h2 className={IterativeCSS.bodytext}>Novig</h2>
@@ -217,17 +217,17 @@ export function IterativeDesign() {
                     </li>
                 </ul>
 
-                <h5 className={IterativeCSS.novigtext}>Commentary</h5>
-                <p className={IterativeCSS.novigtext}>
-                    The User Testing results confirmed some of our predictions and surprised us in others. The task was 
-                    meant to test much of the functionality of the prototype we had implemented by having users check on 
-                    their bets and their leagues and then choosing to make a new bet - the two main functionalities. 
-                    We feel that we met the bar in viewing current bets and implementing the friend interfaces, as users 
-                    found these functions very clear. Our choices for tabs on the navigation bar were clear and easy to
-                    guess what would be on each. However, we fell short in the betting functionality - the lack of clear 
-                    buttons and markings to make bets across all pages caused confusion as there were no affordances for 
-                    placing a bet. 
-                </p>
+                <h5 className={IterativeCSS.novigtext}>Commentary on Results</h5>
+                <ul className={IterativeCSS.novigtext}>
+                    <li>The User Testing results confirmed some of our predictions and surprised us in others.</li>
+                    <li>The task was meant to test much of the functionality of the prototype we had implemented by having users check on 
+                    their bets and their leagues and then choosing to make a new bet - the two main functionalities. </li>
+                    <li>We feel that we met the bar in viewing current bets and implementing the friend interfaces, as users 
+                    found these functions very clear.</li>
+                    <li>Our choices for tabs on the navigation bar were clear and easy to guess what would be on each. </li>
+                    <li>However, we fell short in the betting functionality - the lack of clear buttons and markings to make bets across all pages caused confusion as there were no affordances for placing a bet.</li>
+                </ul>
+
                 <h4 className={IterativeCSS.novigtext}> User Testing Links to Videos </h4>
                 <h4 className={IterativeCSS.novigtext}><a href="https://app.usertesting.com/v/70971002-e178-4f91-bc10-5d27fff732e5?encrypted_video_handle=1e6cca1c-67c4-4829-b250-8231dac46aec#!/notes&shared_via=link">User 1</a></h4>
                 <h4 className={IterativeCSS.novigtext}><a href="https://app.usertesting.com/v/f52514f9-9d4c-48b1-8e25-f28066b701c4?encrypted_video_handle=31ea5c3c-e087-4489-b672-0b54cf77ea74#!/notes&shared_via=link">User 2</a></h4>

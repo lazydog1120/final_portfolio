@@ -7,7 +7,7 @@ export function EyeTracking() {
         <>
         <h1 className={EyeTrackingCSS.header}>Eye Tracking</h1>
         <div className={EyeTrackingCSS.body}>
-            <h6 className={EyeTrackingCSS.bodytext}>In this group project we were tasked to make 2 versions of a site and conduct Eye Tracking tests to evaluate how efficient the page is at guiding users and its usability</h6>
+            <h6 className={EyeTrackingCSS.bodytext}>In this group project we were tasked to make 2 versions of a site and conduct Eye Tracking tests to evaluate and better understand user behavior.</h6>
         </div>
         <div className={EyeTrackingCSS.results}>
             <Carousel variant="dark" slide={false}>
@@ -30,7 +30,7 @@ export function EyeTracking() {
         <div>
             <h4 className={EyeTrackingCSS.devtext}>Goal</h4>
             <p className={EyeTrackingCSS.devtext}>
-            The goal of this project was make 2 different versions of the same page and to see how these pages affected where the users eyes will be drawn to for both pages. 
+            The goal of this project was make 2 different versions of the same page in Figma and to see how these pages affected where the users eyes will be drawn to for both pages. 
             </p>
             <h4 className={EyeTrackingCSS.devtext}>Testing</h4>
             <ul className={EyeTrackingCSS.devtext}>
@@ -100,9 +100,12 @@ export function EyeTracking() {
                 </Carousel>
             </div>
             <h4 className={EyeTrackingCSS.devtext}>Results Analysis</h4>
-            <p className={EyeTrackingCSS.devtext}>
-                Looking at the results, the tested individuals did as we predicted that the users would naturally gravitate towards the nav bar first to figure out how to see the menu. They then looked around the screen at other remaining text until locking on to the "View Our Menu" button as testing ended and the task was complete. In hindsight, we should've put the menu button as part of the nav bar for maximizing efficiency.
-            </p>
+            <ul className={EyeTrackingCSS.devtext}>
+                <li>Looking at the results, the tested individuals did as we predicted.</li>
+                <li>The users would naturally gravitate towards the nav bar first to figure out how to see the menu. They then looked around the screen at other remaining text until locking on to the "View Our Menu" button as testing ended and the task was complete.</li>
+                <li>When comparing the two versions, we can see that based on the action replay there was less eye movement in Version B.</li>
+                <li>This result could be taken different ways. Either Version B was a more efficient looking page or the testee just understood the task at hand earlier.</li>
+            </ul>
         </div>   
         <div>
             <h2 className={EyeTrackingCSS.bodytext}>Conclusion</h2>
