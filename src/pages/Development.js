@@ -11,7 +11,7 @@ export function Development() {
             <h6 className={DevelopmentCSS.bodytext}>Try out <a href='https://lazydog1120.github.io/development'>my app</a>!</h6>
         </div>
         <div className={DevelopmentCSS.home}>
-            <img className={DevelopmentCSS.homeImage} src={process.env.PUBLIC_URL + "/" + "/images/development-imgs/home.png"}></img>
+            <img className={DevelopmentCSS.homeImage} src={process.env.PUBLIC_URL + "/images/development-imgs/home.png"}></img>
         </div>
         <div>
             <h4 className={DevelopmentCSS.devtext}>Goal of Application</h4>
@@ -47,28 +47,28 @@ export function Development() {
                     <Carousel.Item>
                         <img
                         className={DevelopmentCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/development-imgs/sort.png"}
+                        src= {process.env.PUBLIC_URL + "/images/development-imgs/sort.png"}
                         alt="Sort"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={DevelopmentCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/development-imgs/McLaren-filter.png"}
+                        src= {process.env.PUBLIC_URL + "/images/development-imgs/McLaren-filter.png"}
                         alt="McLaren Filter"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={DevelopmentCSS.image}
-                        src={process.env.PUBLIC_URL + "/" + "/images/development-imgs/Asia-filter.png"}
+                        src={process.env.PUBLIC_URL + "/images/development-imgs/Asia-filter.png"}
                         alt="Asia Filter"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={DevelopmentCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/development-imgs/favorites-filter.png"}
+                        src= {process.env.PUBLIC_URL + "/images/development-imgs/favorites-filter.png"}
                         alt="Favorites Filter"
                         />
                     </Carousel.Item>

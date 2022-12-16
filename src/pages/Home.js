@@ -4,7 +4,6 @@ import Korea from '../assets/Korea.jpeg';
 import Arrow from '../assets/downarrow.png';
 import projectData from '../assets/card.json';
 import { CardItem } from '../components/CardItem';
-import { NavBarItem } from '../components/NavBarItem';
 
 export function Home() {
     return (

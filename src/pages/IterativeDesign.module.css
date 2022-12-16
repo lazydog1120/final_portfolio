@@ -37,6 +37,10 @@
     height: 30rem;
 }
 
+.novigImg{
+    width:40rem;
+    height: auto;
+}
 
 .user{
     display: flex;

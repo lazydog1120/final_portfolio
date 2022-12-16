@@ -14,14 +14,14 @@ export function EyeTracking() {
                 <Carousel.Item>
                     <img
                     className={EyeTrackingCSS.image}
-                    src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version A.jpg"}
+                    src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version A.jpg"}
                     alt="Version A"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className={EyeTrackingCSS.image}
-                    src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version B.jpg"}
+                    src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version B.jpg"}
                     alt="Version B"
                     />
                 </Carousel.Item>
@@ -53,21 +53,21 @@ export function EyeTracking() {
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version A heatmap.png"}
+                        src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version A heatmap.png"}
                         alt="Version A heatmap"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version A action replay.png"}
+                        src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version A action replay.png"}
                         alt="Version A Replay During"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version A replay.png"}
+                        src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version A replay.png"}
                         alt="Version A Replay Final"
                         />
                     </Carousel.Item>
@@ -79,21 +79,21 @@ export function EyeTracking() {
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version B heatmap.png"}
+                        src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version B heatmap.png"}
                         alt="Version B heatmap"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version B action replay.png"}
+                        src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version B action replay.png"}
                         alt="Version B Replay During"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className={EyeTrackingCSS.image}
-                        src= {process.env.PUBLIC_URL + "/" + "/images/eye-tracking-imgs/Version B replay.png"}
+                        src= {process.env.PUBLIC_URL + "/images/eye-tracking-imgs/Version B replay.png"}
                         alt="Version B Replay Final"
                         />
                     </Carousel.Item>

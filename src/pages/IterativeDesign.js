@@ -9,6 +9,9 @@ export function IterativeDesign() {
             <div className={IterativeCSS.body}>
                 <h6 className={IterativeCSS.bodytext}> In this group project we were tasked with designing an interactive interface using Figma for an emerging startup. </h6>
             </div>
+            <div className={IterativeCSS.sketches}>
+                <img className={IterativeCSS.novigImg} src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Novig.png"} alt="1"/>
+            </div>
             <div>
                 <h2 className={IterativeCSS.bodytext}>Novig</h2>
             </div>
@@ -54,35 +57,35 @@ export function IterativeDesign() {
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 1.png"}
+                                src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 1.png"}
                                 alt="1"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 2.png"}
+                                src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 2.png"}
                                 alt="2"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 3.png"}
+                                src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 3.png"}
                                 alt="3"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 4.png"}
+                                src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 4.png"}
                                 alt="4"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 5.png"}
+                                src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 5.png"}
                                 alt="5"
                                 />
                             </Carousel.Item>
@@ -96,14 +99,14 @@ export function IterativeDesign() {
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 7.png"}
+                                src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 7.png"}
                                 alt="7"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.image}
-                                src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Sketches 8.png"}
+                                src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/Sketches 8.png"}
                                 alt="8"
                                 />
                             </Carousel.Item>
@@ -119,35 +122,35 @@ export function IterativeDesign() {
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Pre Sign In.png"}
+                                src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Pre Sign In.png"}
                                 alt="pre sign in"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Create Account.png"}
+                                src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Create Account.png"}
                                 alt="create account"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Home page.png"}
+                                src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Home page.png"}
                                 alt="home page"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Friends page.png"}
+                                src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Friends page.png"}
                                 alt="friends page"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                 className={IterativeCSS.imageW}
-                                src= {process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/Leagues.png"}
+                                src= {process.env.PUBLIC_URL + "/images/iterative-design-imgs/Leagues.png"}
                                 alt="leagues"
                                 />
                             </Carousel.Item>
@@ -183,7 +186,7 @@ export function IterativeDesign() {
                 </p>
                 <h4 className={IterativeCSS.novigtext}>Task Description</h4>
                 <div className={IterativeCSS.user}>
-                    <img className={IterativeCSS.image} src={process.env.PUBLIC_URL + "/" + "/images/iterative-design-imgs/User testing task.png"} alt="user"/>
+                    <img className={IterativeCSS.image} src={process.env.PUBLIC_URL + "/images/iterative-design-imgs/User testing task.png"} alt="user"/>
                 </div>
                 <h4 className={IterativeCSS.novigtext}>Analysis</h4>
                 <p className={IterativeCSS.novigtext}>
